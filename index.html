@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Tarea 4</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var pnumero = parseInt(prompt("Ingrese el primer número"));
+        var snumero = parseInt(prompt("Ingrese el segundo número"));
+        var contador = 0;
+            while (contador < 5) {
+            switch (contador) 
+                {
+                case 0:
+                    var suma = pnumero + snumero;
+                    alert("Suma\nEl resultado de la suma del número " + pnumero + " y " + snumero + " es: " + suma);
+                    break;
+                case 1:
+                    var resta = pnumero - snumero;
+                    alert("Resta\nEl resultado de la resta entre el número " + pnumero + " y " + snumero + " es: " + resta);
+                    break;
+                case 2:
+                    var multiplicacion = pnumero * snumero;
+                    alert("Multiplicación\nEl resultado de la multiplicación de los números " + pnumero + " y " + snumero + " es: " + multiplicacion);
+                    break;
+                case 3:
+                    var division = pnumero / snumero;
+                    alert("División\nEl resultado de la división entre el número " + pnumero + " y " + snumero + " es: " + division);
+                    break;
+                case 4:
+                    var modulo = pnumero % snumero;
+                    alert("Resto\nEl resultado del módulo(%) entre el número " + pnumero + " y " + snumero + " es: " + modulo);
+                    break;
+            }
+            contador++;
+        }
+    </script>
+</body>
+</html>
